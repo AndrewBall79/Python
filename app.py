@@ -38,10 +38,17 @@ from math import *
 # print(sqrt(36))
 # math. floor, round, max, min, sqrt, ceil,
 
-name = input("Enter your name: ")
-num1 = input("Enter the year you were born: ")
-num2 = input("Enter the current year: ")
-result = float(num2) - float(num1)
-print("Hello " + name + "!")
-print("You are " + str(result.__round__()) + " years old.")
+# name = input("Enter your name: ")
+# num1 = input("Enter the year you were born: ")
+# num2 = input("Enter the current year: ")
+# result = float(num2) - float(num1)
+# print("Hello " + name + "!")
+# print("You are " + str(result.__round__()) + " years old.")
 
+color = input("Enter a color: ")
+plural_noun = input("Enter a plural noun: ")
+celebrity = input("Enter a celebrity: ")
+
+print("Roses are " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
