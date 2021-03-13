@@ -39,8 +39,9 @@ from math import *
 # math. floor, round, max, min, sqrt, ceil,
 
 name = input("Enter your name: ")
-age = input("Enter your age: ")
+num1 = input("Enter the year you were born: ")
+num2 = input("Enter the current year: ")
+result = float(num2) - float(num1)
 print("Hello " + name + "!")
-print("Your are " + age)
-
+print("You are " + str(result.__round__()) + " years old.")
 
