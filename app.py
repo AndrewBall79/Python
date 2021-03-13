@@ -48,13 +48,13 @@ from math import *
 # color = input("Enter a color: ")
 # plural_noun = input("Enter a plural noun: ")
 # celebrity = input("Enter a celebrity: ")
-#
+
 # print("Roses are " + color)
 # print(plural_noun + " are blue")
 # print("I love " + celebrity)
 # lucky_numbers = [4, 89, 1, 2123, 412]
 # friends = ["joe", "tom", "steve", "Food", "glomb", "sven"]
-#
+
 # print(friends[1:5])
 # lucky_numbers.sort()
 # print(lucky_numbers)
@@ -69,3 +69,25 @@ from math import *
 # print(friends)
 # friends.index("steve")
 # print(len(friends))
+
+# tuples are immutable
+# coordinates = (4, 5)
+# print(coordinates[1])
+
+# Say hello function
+# def say_hi(name, age):
+#     print("Hi " + name + ", you are " +age)
+#
+#
+# say_hi("Chobie", "35")
+# say_hi("Cornine", "34")
+
+
+# def cube(num):
+#     return num*num*num
+#
+#
+# result = input("Enter a number: ")
+# print(cube(int(result)))
+
+
