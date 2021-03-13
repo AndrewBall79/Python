@@ -91,3 +91,17 @@ from math import *
 # print(cube(int(result)))
 
 
+# If statements
+# is_male = False
+# is_tall = True
+#
+# if is_male and is_tall:
+#     print("You can fight in the pit")
+# elif is_male and not is_tall:
+#     print("You are a short man")
+# elif not is_male and not is_tall:
+#     print("You are a short female")
+# else:
+#     print("You can fight in the clouds")
+
+
