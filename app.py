@@ -45,10 +45,27 @@ from math import *
 # print("Hello " + name + "!")
 # print("You are " + str(result.__round__()) + " years old.")
 
-color = input("Enter a color: ")
-plural_noun = input("Enter a plural noun: ")
-celebrity = input("Enter a celebrity: ")
-
-print("Roses are " + color)
-print(plural_noun + " are blue")
-print("I love " + celebrity)
+# color = input("Enter a color: ")
+# plural_noun = input("Enter a plural noun: ")
+# celebrity = input("Enter a celebrity: ")
+#
+# print("Roses are " + color)
+# print(plural_noun + " are blue")
+# print("I love " + celebrity)
+# lucky_numbers = [4, 89, 1, 2123, 412]
+# friends = ["joe", "tom", "steve", "Food", "glomb", "sven"]
+#
+# print(friends[1:5])
+# lucky_numbers.sort()
+# print(lucky_numbers)
+# friends[4] = "tobias"
+# friends.insert(1, "Francois")
+# print(friends)
+# friends.remove("Food")
+# print(friends)
+# friends.append("Clory")
+# print(friends)
+# friends.extend(lucky_numbers)
+# print(friends)
+# friends.index("steve")
+# print(len(friends))
