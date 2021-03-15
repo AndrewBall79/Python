@@ -105,14 +105,88 @@ from math import *
 #     print("You can fight in the clouds")
 
 
-def max_num(num1, num2, num3):
-    if num1 >= num2 and num1 >= num3:
-        return num1
-    elif num2 >= num1 and num2 >= num3:
-        return num2
-    else:
-        return num3
+# def max_num(num1, num2, num3):
+#     if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
+#
+#
+# print(max_num(4, 5, 5))
+
+# The Most Amazing calculator
+# num1 = float(input("Enter first number: "))
+# op = input("Enter operator: ")
+# num2 = float(input("Enter second number: "))
+#
+# if op == "+":
+#     print(num1 + num2)
+# elif op == "-":
+#     print(num1 - num2)
+# elif op == "/":
+#     print(num1 / num2)
+# elif op == "*":
+#     print(num1 * num2)
+# else:
+#     print("Invalid operator")
+
+# monthConversions = {
+#     "Jan": "January",
+#     "Feb": "February",
+#     "Mar": "March",
+#     "Apr": "April",
+#     "May": "May",
+#     "Jun": "June",
+#     "Jul": "July",
+#     "Aug": "August",
+#     "Sep": "September",
+#     "Oct": "October",
+#     "Nov": "November",
+#     "Dec": "December"
+# }
+#
+# print(monthConversions["Mar"])
+# print(monthConversions.get(input("Enter a month: "), "Not a valid key"))
+
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i += 1
+#
+# print("Done with loop")
 
 
-print(max_num(4, 5, 5))
+# Guessing game
+# secret_word = "albino"
+# guess = ""
+# guess_count = 0
+# guess_limit = 3
+# out_of_guesses = False
 
+# while guess != secret_word and not out_of_guesses:
+#     if guess_count < guess_limit:
+#         guess = input("Enter guess: ")
+#         guess_count += 1
+#     else:
+#         out_of_guesses = True
+#
+# if out_of_guesses:
+#     print("Out of guesses, You Lose!")
+# else:
+#     print("You Win!")
+
+# Guessing Game Simplified
+# secret_word = "albino"
+# guess = ""
+# guess_count = 0
+#
+# while guess != secret_word and guess_count < 3:
+#     guess = input("Enter guess: ")
+#     guess_count += 1
+#
+# if guess == secret_word:
+#     print("You Win")
+# else:
+#     print("You Lose")
