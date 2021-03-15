@@ -284,7 +284,7 @@ student1 = Student("Joe", "Science", 3.8, False)
 student2 = Student("Sally", "Art", 2.8, True)
 
 
-print("Student " + student2.name + " " + student2.on_honor_roll())
+# print("Student " + student2.name + " " + student2.on_honor_roll())
 
 
 
@@ -318,4 +318,12 @@ print("Student " + student2.name + " " + student2.on_honor_roll())
 # run_test(questions)
 
 
+from Chef import Chef
 
+myChef = Chef()
+myChef.make_salad()
+
+from ChineseChef import ChineseChef
+myChineseChef = ChineseChef()
+
+myChineseChef.make_special_dish()
