@@ -207,3 +207,20 @@ from math import *
 #         print("first Iteration")
 #     else:
 #         print(index)
+
+def raise_to_power(base_number, pow_number):
+    result = 1
+    for index in range(pow_number):
+        result = result * base_number
+    return result
+
+
+print(raise_to_power(3, 4))
+
+
+def raise_to_power2(base_number, pow_number):
+    return base_number**pow_number
+
+
+print(raise_to_power2(3, 4))
+
