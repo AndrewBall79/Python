@@ -190,3 +190,20 @@ from math import *
 #     print("You Win")
 # else:
 #     print("You Lose")
+
+# friends = ["joe", "tom", "steve", "Food", "glomb", "sven"]
+# # print(len(friends))
+# for friend in friends:
+#     print(friend)
+#
+# for index in range(3, 10):
+#     print(index)
+#
+# for letter in "Academy":
+#     print(letter)
+#
+# for index in range(5):
+#     if index == 0:
+#         print("first Iteration")
+#     else:
+#         print(index)
