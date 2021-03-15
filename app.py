@@ -251,3 +251,12 @@ from math import *
 #
 #
 # print(translate(input("Enter a phrase: ")))
+
+# try:
+#     number = int(input("Enter a number: "))
+#     print(number)
+# except ValueError:
+#     print("Invalid Input")
+# except ZeroDivisionError as err:
+#     print(err)
+
