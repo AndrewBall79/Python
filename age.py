@@ -59,3 +59,13 @@ for item in my_list:
     count = count + item
 print(count)
 
+
+# Create a list with range
+for _ in range(3):
+    print(list(range(10, 0, -1)))
+
+
+for i,char in enumerate(list(range(100))):
+    if char == 50:
+        print(f'index of 50 is: {i}')
+
