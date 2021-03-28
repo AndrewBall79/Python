@@ -38,3 +38,16 @@ for item in user.values():
 
 for item in user.keys():
     print(item)
+
+
+
+is_magician = False
+is_expert = True
+
+if is_magician:
+    if is_expert:
+        print("You are a master")
+    else:
+        print("You're getting there")
+else:
+    print("You need magic powers")
