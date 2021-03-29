@@ -69,3 +69,13 @@ for i,char in enumerate(list(range(100))):
     if char == 50:
         print(f'index of 50 is: {i}')
 
+
+some_list = ['a','b','c','b','d','m','n','n']
+
+duplicates = []
+for value in some_list:
+    if some_list.count(value) > 1:
+        if value not in duplicates:
+            duplicates.append(value)
+
+print(duplicates)
